@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:33:07.087+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:37:40.371+02:00"}
 ---
 
 # hello
@@ -8,48 +8,6 @@
 ![Truth Table.png](/img/user/assets/img/Truth%20Table.png)
 
 ## Mermaid Diagrams
-
-```mermaid
-classDiagram
-    Student --> Library
-    Teacher -- Student
-    Classroom o-- Student
-    Car *-- Engine
-    PaymentProcessor ..> Logger
-    Vehicle <|-- Car
-
-    class Student{
-        +String name
-        +BorrowBookFromLibrary()
-        +Teacher myTeacher
-    }
-    class Classroom{
-        +Student[] students
-    }
-    class Library{
-        +BorrowBook()
-    }
-    class Teacher{
-        +Student[] students
-    }
-    class Engine{
-        +String model
-    }
-    class Car{
-        -Engine engine
-        +String model
-    }
-    class Logger{
-        +Log()
-    }
-    class PaymentProcessor{
-        -Logger logger
-        +ProcessPayment()
-    }
-    class Vehicle{
-        +int speed
-    }
-```
 
 ```mermaid
 classDiagram
