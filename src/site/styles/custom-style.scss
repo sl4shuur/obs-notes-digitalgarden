@@ -1,266 +1,196 @@
+/* ==============================================
+   Digital Garden Stylesheet
+   ============================================== */
+
+// ======================
+// Base Styles
+// ======================
 body {
-    
-.centered-title h1, .centered-title .HyperMD-header-1 {
-  text-align: center;
+  // Full-width content containers
+  .markdown-preview-view,
+  .markdown-source-view {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+  }
+
+  // Responsive padding
+  @media (max-width: 768px) {
+    .markdown-preview-view {
+      padding: 0 1rem;
+    }
+  }
 }
 
-.markdown-preview-view,
-.markdown-source-view {
-    max-width: none; /* Removes any width restrictions */
-    width: 100%; /* Makes content span the entire screen */
-    margin: 0; /* Removes side margins */
-}
-
-/* main colors for dark theme */
+// ======================
+// Theme Colors (HSL-based)
+// ======================
 body.theme-dark {
-    --color-red: #ff3f4d;
-    --color-orange: #ffa94d;
-    --color-yellow: #ffe066;
-    --color-green: #b5f87d;
-    --color-cyan: #65d0fa;
-    --color-blue: #4984f2;
-    --color-purple: #a87dff;
-    --color-pink: #fb73be;
-    --color-aqua: #59f3ce;
+  // Base Colors
+  --color-red: #ff3f4d;
+  --color-orange: #ffa94d;
+  --color-yellow: #ffe066;
+  --color-green: #b5f87d;
+  --color-cyan: #65d0fa;
+  --color-blue: #4984f2;
+  --color-purple: #a87dff;
+  --color-pink: #fb73be;
+  --color-aqua: #59f3ce;
+
+  // Extended Palette
+  --color-red-2: #ff5733;
+  --color-orange-2: #FFBD33;
+  --color-green-2: #75FF33;
 }
-
-/* main colors for light theme */
-body.theme-light {
-    --color-red: #FF3D00; /* text */
-    --color-orange: #FFB74D; /* text */
-    --color-yellow: #FFD700; /* text */
-    --color-green: #00E676; /* text */
-    --color-cyan: #00BFFF; /* text */
-    --color-blue: #335BFF; /* text */
-    --color-purple: #A500B5; /* text */
-    --color-pink: #e02baa; /* text */
-    --color-aqua: #4DB6AC; /* text */
-}
-
-/* Cool site tho
-
-https://piktochart.com/tips/rainbow-color-palette 
-
-*/
 
 body.theme-light {
-    --color-red-1: #b02b35;
-    --color-red-2: #ff5733; /* header */
-    --color-red-3: #ff6f61;
-    --color-red-4: #FF3D00; /* text */
+  // Accessible Text Colors
+  --color-red: #CC0000;
+  --color-orange: #BF360C;
+  --color-yellow: #F57F17;
+  --color-green: #2E7D32;
+  --color-cyan: #006064;
+  --color-blue: #0D47A1;
+  --color-purple: #6A1B9A;
+  --color-pink: #AD1457;
+  --color-aqua: #00897B;
 
-    --color-orange-1: #b8733a;
-    --color-orange-2: #FFBD33;  
-    --color-orange-3: #FFCC00; /* header */
-    --color-orange-4: #FFB74D; /* text */
-
-    --color-yellow-1: #bba84b;
-    --color-yellow-2: #FFD700; /* text */ 
-    --color-yellow-3: #ffdd00; /* header */
-    --color-yellow-4: #FFB300;
-
-    --color-green-1: #7ebf5c;
-    --color-green-2: #75FF33;
-    --color-green-3: #00E676; /* text */
-    --color-green-4: #0aca37; /* header */
-
-    --color-cyan-1: #3aaade; /* header */
-    --color-cyan-2: #34a682;
-    --color-cyan-3: #00BFFF; /* text */
-    --color-cyan-4: #4DB6AC;
-
-    --color-blue-1: #2564da; /* header */
-    --color-blue-2: #335BFF; /* text */
-    --color-blue-3: #A3D9FF;
-    --color-blue-4: #00B0FF; 
-
-    --color-purple-1: #8747db; /* header */
-    --color-purple-2: #6A5ACD;
-    --color-purple-3: #7E57C2;
-    --color-purple-4: #A500B5; /* text */
-
-    --color-pink-1: #e02baa; /* text */
-    --color-pink-2: #D5006D; /* header */
-
-    --color-aqua-1: #2f806c;
-    --color-aqua-2: #34a682; /* header */
-    --color-aqua-3: #4DB6AC; /* text */
-
+  // Accent Colors
+  --color-red-2: #FF3D00;
+  --color-orange-2: #FF6F00;
+  --color-green-2: #00C853;
 }
 
-/* 
+// ======================
+// Typography
+// ======================
+.center-titles {
+  :is(h1, h2, h3, h4, h5, h6),
+  .HyperMD-header {
+    text-align: center;
+    margin: 1.5rem 0;
+    position: relative;
 
----
-
-**Vibrant Spectrum:**  
-- Red - #FF5733  
-- Orange - #FFBD33  
-- Green - #75FF33  
-- Cyan - #33FFBD  
-- Blue - #335BFF  
-
----
-
-**Sunset Rainbow:**  
-- Red - #FF6F61  
-- Orange - #FF9A00  
-- Yellow - #FFD700  
-- Blue - #A3D9FF  
-- Purple - #6A5ACD  
-
----
-
-**Tropical Vibes:**  
-- Red - #FF6F61  
-- Orange - #FFB74D  
-- Teal - #4DB6AC  
-- Blue - #4FC3F7  
-- Purple - #7E57C2  
-
----
-
-**Jewel Tones:**  
-- Purple - #A500B5  
-- Magenta - #D5006D  
-- Orange - #FF6F00  
-- Yellow - #FFB300  
-- Aqua - #00BFAE  
-
----
-
-**Bold and Bright:**  
-- Red - #FF3D00  
-- Yellow - #FFEA00  
-- Green - #00E676  
-- Blue - #00B0FF  
-- Purple - #6200EA  
-
----
-
-**Neon Rainbow:**  
-- Red - #FF3D00  
-- Yellow - #FFEA00  
-- Green - #00E676  
-- Blue - #00B0FF  
-- Magenta - #D5006D  
-
----
-
-**Oceanic Hues:**  
-- Blue - #0077BE  
-- Cyan - #00BFFF  
-- Green - #00FF7F  
-- Yellow - #FFD700  
-- Orange - #FF4500  
-
----
-
-**Retro Rainbow:**  
-- Red - #FF6F61  
-- Orange - #FFB74D  
-- Teal - #4DB6AC  
-- Blue - #4FC3F7  
-- Purple - #7E57C2  
-
-
-*/
-
-
-/* back-up code */
-
-/* body.theme-dark {
-    --custom-highlight-red: rgb(255, 59, 59);
-    --custom-highlight-orange: rgb(255, 140, 0);
-    --custom-highlight-yellow: rgb(255, 214, 10);
-    --custom-highlight-green: rgb(72, 209, 204);
-    --custom-highlight-cyan: rgb(0, 191, 255);
-    --custom-highlight-blue: rgb(65, 105, 225);
-    --custom-highlight-purple: rgb(138, 43, 226);
-    --custom-highlight-pink: rgb(255, 105, 180);
-} */
-
-
-/* CyanVoxel's General Tweaks */
-
-.theme-light,
-.theme-dark {
-  --link-decoration: none;
+    &::after {
+      content: '';
+      display: block;
+      width: 3rem;
+      height: 2px;
+      background: var(--text-accent);
+      margin: 0.5rem auto;
+    }
+  }
 }
 
-h1 {
-  margin-top: 20px !important;
+code {
+  font-family: "JetBrainsMono Nerd Font Mono", monospace, sans-serif;
+  padding: 0.2em 0.4em;
+  background: var(--background-secondary);
+  border-radius: 3px;
+  border: 1px solid var(--background-modifier-border);
 }
 
-hr {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.image-borders img {
-  border: solid;
-  /* border-width: 1em; */
-  border-width: 2px;
-  /* border-radius: 6px; */
-  border-color: rgba(122, 122, 122, 0.2);
-}
-
+// ======================
+// Images & Media
+// ======================
+.image-borders img,
 .markdown-preview-view img {
-  max-width: 100%;
-}
-
-img {
-  max-width: 100%;
+  border: 2px solid rgba(122, 122, 122, 0.2);
   border-radius: 6px;
-}
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  transition: transform 0.2s ease;
 
-.callout {
-  border-radius: 12px;
-  border-width: 2px;
-}
-
-.task-list-item-checkbox {
-  border-width: 2px;
-}
-
-#calendar-container .title {
-  font-size: 18px;
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 .center-images img {
   display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin: 1rem auto !important;
 }
 
+// ======================
+// Components
+// ======================
+.callout {
+  border-radius: 12px;
+  border-width: 2px;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  
+  &[data-callout="note"] {
+    border-color: var(--color-blue);
+  }
+}
+
+.task-list-item-checkbox {
+  border-width: 2px;
+  margin-right: 0.5rem;
+}
+
+// ======================
+// Accessibility
+// ======================
+a {
+  &:focus {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 2px;
+  }
+
+  &:not(.internal-link)::after {
+    content: "↗";
+    font-size: 0.8em;
+    margin-left: 0.3em;
+    opacity: 0.7;
+  }
+}
+
+// ======================
+// Utilities
+// ======================
 .no-embed-border {
-  --embed-border-left: 0px solid black !important;
+  --embed-border-left: 0 !important;
 }
 
-/* .markdown-preview-view */
-.markdown-preview-view {
-  border-radius: 6px;
-}
-
-.center-titles
-  :is(
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    .HyperMD-header.HyperMD-header-1,
-    .HyperMD-header.HyperMD-header-2,
-    .HyperMD-header.HyperMD-header-3,
-    .HyperMD-header.HyperMD-header-4,
-    .HyperMD-header.HyperMD-header-5,
-    .HyperMD-header.HyperMD-header-6
-  ) {
+.centered-title {
   text-align: center;
+  margin: 2rem 0;
 }
 
-code {
-  font-family: "JetBrainsMono Nerd Font Mono", monospace;
-}
+hr {
+  margin: 2rem 0;
+  border-color: var(--background-modifier-border);
+  opacity: 0.5;
 }
 
+// ======================
+// Obsidian-Specific Fixes
+// ======================
+#calendar-container .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.HyperMD-header {
+  &-1 { font-size: 2.2rem; }
+  &-2 { font-size: 1.8rem; }
+  &-3 { font-size: 1.5rem; }
+}
+
+// ======================
+// Print Styles
+// ======================
+@media print {
+  body {
+    --text-normal: #000 !important;
+    --background-primary: #fff !important;
+  }
+
+  img {
+    filter: contrast(110%);
+  }
+}
