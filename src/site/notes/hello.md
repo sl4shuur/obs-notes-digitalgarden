@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:39:37.556+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:40:45.169+02:00"}
 ---
 
 # hello
@@ -11,7 +11,7 @@
 
 ```mermaid
 classDiagram
-    Animal <|.. Dog
+    Animal <|-- Dog
 
     class Animal{
         +speak()
