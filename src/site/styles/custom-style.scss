@@ -73,19 +73,6 @@ h1[id] {
   margin-right: auto !important;
   display: block !important;
   width: fit-content;
-  
-  // Optional: Add decorative elements
-  position: relative;
-  padding-bottom: 0.5rem;
-  
-  &::after {
-    content: '';
-    display: block;
-    width: 60%;
-    height: 2px;
-    background: var(--color-yellow);
-    margin: 0.5rem auto 0;
-  }
 }
 
 // For source view in Obsidian
