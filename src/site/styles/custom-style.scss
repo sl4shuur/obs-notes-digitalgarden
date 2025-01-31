@@ -24,7 +24,7 @@ body {
 }
 
 // ======================
-// Theme Colors (HSL-based)
+// Theme Colors (in HEX)
 // ======================
 body.theme-dark {
   // Base Colors
@@ -65,22 +65,32 @@ body.theme-light {
 // ======================
 // Typography
 // ======================
-.center-titles {
-  :is(h1, h2, h3, h4, h5, h6),
-  .HyperMD-header {
-    text-align: center;
-    margin: 1.5rem 0;
-    position: relative;
-
-    &::after {
-      content: '';
-      display: block;
-      width: 3rem;
-      height: 2px;
-      background: var(--text-accent);
-      margin: 0.5rem auto;
-    }
+.markdown-preview-view h1,
+.markdown-source-view .HyperMD-header-1,
+h1[id] {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+  width: fit-content;
+  
+  // Optional: Add decorative elements
+  position: relative;
+  padding-bottom: 0.5rem;
+  
+  &::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 2px;
+    background: var(--color-yellow);
+    margin: 0.5rem auto 0;
   }
+}
+
+// For source view in Obsidian
+.cm-line.HyperMD-header {
+  text-align: center !important;
 }
 
 code {
