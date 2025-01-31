@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-02-01T00:00:06.373+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-02-01T00:05:28.793+02:00"}
 ---
 
 # hello
@@ -10,6 +10,8 @@
 ## Mermaid Diagrams
 
 ```plantuml
+!theme sketchy
+
 Bob -> Alice : hello
 Alice -> Wonderland: hello
 Wonderland -> next: hello
