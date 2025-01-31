@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:01:23.183+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:07:41.804+02:00"}
 ---
 
 # hello
@@ -9,12 +9,12 @@
 
 ```mermaid
 classDiagram
-    Teacher -- Student
+    Car *-- Engine : has a
 
-    class Student{
-        +Teacher myTeacher
+    class Engine{
+        +String model
     }
-    class Teacher{
-        +Student[] students
+    class Car{
+        -Engine engine
     }
 ```
