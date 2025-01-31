@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:07:41.804+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T23:19:19.502+02:00"}
 ---
 
 # hello
@@ -9,7 +9,7 @@
 
 ```mermaid
 classDiagram
-    Car *-- Engine : has a
+    Car *-- Engine
 
     class Engine{
         +String model
