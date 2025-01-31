@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T22:36:11.689+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-01-31T22:58:27.375+02:00"}
 ---
 
 # hello
@@ -15,6 +15,6 @@ classDiagram
         +Teacher myTeacher
     }
     class Teacher{
-        +List<Student> students
+        +students: Student[]
     }
 ```
