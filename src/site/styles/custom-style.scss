@@ -91,6 +91,14 @@ code {
   border: 1px solid var(--background-modifier-border);
 }
 
+strong, 
+b, 
+.markdown-preview-view strong,
+.markdown-rendered strong {
+  color: var(--color-yellow) !important;
+  font-weight: 600; // Maintain bold appearance
+}
+
 // ======================
 // Images & Media
 // ======================
