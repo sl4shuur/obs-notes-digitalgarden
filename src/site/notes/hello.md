@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-02-01T00:05:28.793+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-02-02T21:55:13.267+02:00"}
 ---
 
 # hello
@@ -10,14 +10,17 @@
 ## Mermaid Diagrams
 
 ```plantuml
-!theme sketchy
+@startuml
+class Student {
+    +String name
+    +BorrowBookFromLibrary()
+}
 
-Bob -> Alice : hello
-Alice -> Wonderland: hello
-Wonderland -> next: hello
-next -> Last: hello
-Last -> next: hello
-next -> Wonderland : hello
-Wonderland -> Alice : hello
-Alice -> Bob: hello
+class Library {
+    +BorrowBook()
+}
+
+Student --> Library : borrows
+@enduml
+
 ```
