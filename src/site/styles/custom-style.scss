@@ -22,7 +22,7 @@ body {
     }
   }
 
-   .internal-link::after {
+   a.internal-link::after {
    display: none !important;
    }
 }
