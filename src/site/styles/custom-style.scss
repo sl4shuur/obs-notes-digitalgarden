@@ -22,8 +22,8 @@ body {
     }
   }
 
-   a.internal-link::after {
-   display: none !important;
+   a.filename::after {
+    display: none !important;
    }
 }
 
