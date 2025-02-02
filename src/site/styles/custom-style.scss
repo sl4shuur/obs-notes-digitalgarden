@@ -21,6 +21,10 @@ body {
       padding: 0 1rem;
     }
   }
+
+   .internal-link::after {
+   display: none !important;
+   }
 }
 
 // ======================
