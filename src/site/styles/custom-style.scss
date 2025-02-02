@@ -22,9 +22,14 @@ body {
     }
   }
 
-   a.filename::after {
+   // a.filename::after {
+   //  display: none !important;
+   // }
+
+   a::after {
     display: none !important;
    }
+   
 }
 
 // ======================
