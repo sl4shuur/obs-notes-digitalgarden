@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-02-02T21:55:13.267+02:00"}
+{"dg-publish":true,"permalink":"/hello/","created":"2025-01-31T22:24:55.224+02:00","updated":"2025-02-03T20:02:40.268+02:00"}
 ---
 
 # hello
