@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-kse/2-5-term/methods-of-optimization/optimization-formula/","tags":["kse","math/calculus"],"created":"2025-02-12T18:37:11.056+02:00","updated":"2025-02-12T19:07:34.867+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Optimization Formula.md","permalink":"/kse/optimization-techniques/optimization-formula/","tags":["kse","math/calculus"],"created":"2025-02-12T18:37:11.056+02:00","updated":"2025-02-12T19:07:34.867+02:00"}
 ---
 
 
