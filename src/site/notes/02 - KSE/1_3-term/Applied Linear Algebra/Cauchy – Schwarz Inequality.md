@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Linear Algebra/Cauchy – Schwarz Inequality.md","permalink":"/kse/linear-algebra/cauchy-schwarz-inequality/","tags":["kse","math/linal"],"created":"2025-02-17T13:08:49.930+02:00","updated":"2025-02-17T20:22:09.731+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Linear Algebra/Cauchy – Schwarz Inequality.md","permalink":"/kse/linear-algebra/cauchy-schwarz-inequality/","tags":["kse","math/linal"],"created":"2025-02-17T13:08:49.930+02:00","updated":"2025-02-24T12:55:22.474+02:00"}
 ---
 
 

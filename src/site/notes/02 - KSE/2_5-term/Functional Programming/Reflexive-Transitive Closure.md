@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Functional Programming/Reflexive-Transitive Closure.md","permalink":"/kse/functional-programming/reflexive-transitive-closure/","tags":["kse"],"created":"2025-02-19T00:07:54.706+02:00","updated":"2025-02-19T00:55:08.632+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Functional Programming/Reflexive-Transitive Closure.md","permalink":"/kse/functional-programming/reflexive-transitive-closure/","tags":["kse"],"created":"2025-02-19T00:07:54.706+02:00","updated":"2025-02-24T12:55:00.358+02:00"}
 ---
 
 
