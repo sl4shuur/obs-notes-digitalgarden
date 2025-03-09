@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Hessian matrix.md","permalink":"/kse/optimization-techniques/hessian-matrix/","created":"2025-03-03T14:49:52.484+02:00","updated":"2025-03-09T13:02:18.696+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Hessian matrix.md","permalink":"/kse/optimization-techniques/hessian-matrix/","tags":["kse","math/calculus"],"created":"2025-03-03T14:49:52.484+02:00","updated":"2025-03-09T13:32:57.445+02:00"}
 ---
 
 # Hessian matrix
