@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Optimization Formula.md","permalink":"/kse/optimization-techniques/optimization-formula/","tags":["kse","math/calculus"],"created":"2025-02-12T18:37:11.056+02:00","updated":"2025-02-24T12:54:47.242+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Optimization Formula.md","permalink":"/kse/optimization-techniques/optimization-formula/","tags":["kse","math/calculus"],"created":"2025-02-12T18:37:11.056+02:00","updated":"2025-03-09T17:50:10.310+02:00"}
 ---
 
 
@@ -53,7 +53,7 @@ For example:
 - If **$n = 1$**, then $x$ is just one number: **$x \in \mathbb{R}$** (like a temperature or price).
 - If **$n = 2$**, then $x = (x_1, x_2) \in \mathbb{R}^2$ is like a coordinate on a 2D graph.
 - If **$n = 3$**, then $x = (x_1, x_2, x_3) \in \mathbb{R}^3$ is a point in 3D space.
-- If **$n = 100$**, then $x$ is a **100-dimensional** vector—impossible to visualize but useful in things like AI and machine learning.
+- If **$n = 100$**, then $x$ is a **100-dimensional** vector — impossible to visualize but useful in things like AI and machine learning.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Hessian matrix.md","permalink":"/kse/optimization-techniques/hessian-matrix/","tags":["kse","math/calculus"],"created":"2025-03-03T14:49:52.484+02:00","updated":"2025-03-09T13:32:57.445+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Hessian matrix.md","permalink":"/kse/optimization-techniques/hessian-matrix/","tags":["kse","math/calculus"],"created":"2025-03-03T14:49:52.484+02:00","updated":"2025-03-09T17:50:04.513+02:00"}
 ---
 
 # Hessian matrix
@@ -78,7 +78,7 @@ $$
 \frac{d^2 f}{dx^2} = 2
 $$  
 
-Since $2 > 0$, the function is **convex**—its graph forms a **parabolic bowl** that always curves upwards.
+Since $2 > 0$, the function is **convex** — its graph forms a **parabolic bowl** that always curves upwards.
 
 ![Convex And Concave Functions And Inflection Points Good Example.png|400](/img/user/assets/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20Good%20Example.png)
 
@@ -112,7 +112,7 @@ This function is **not convex everywhere** because the second derivative depends
 
 ![Convex And Concave Functions And Inflection Points Bad Example.png|400](/img/user/assets/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20Bad%20Example.png)
 
-This shows that **convexity is not just about checking one point**—it must hold <strong><span style="color: var(--color-red);">everywhere</span></strong>.  
+This shows that **convexity is not just about checking one point** — it must hold <strong><span style="color: var(--color-red);">everywhere</span></strong>.  
 
 ---
 
@@ -208,7 +208,7 @@ Check the conditions:
 
 ![Hyperbolic Paraboloid.png](/img/user/assets/Hyperbolic%20Paraboloid.png)
 
-Since the determinant is negative, the Hessian is <strong><span style="color: var(--color-red);">not positive semidefinite</span></strong>, meaning the function is **not convex**—it has a <strong><span style="color: var(--color-aqua);">saddle point</span></strong>.  
+Since the determinant is negative, the Hessian is <strong><span style="color: var(--color-red);">not positive semidefinite</span></strong>, meaning the function is **not convex** — it has a <strong><span style="color: var(--color-aqua);">saddle point</span></strong>.  
 
 ---
 
