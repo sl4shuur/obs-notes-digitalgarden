@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Finding the Lipschitz Constant of a Function.md","permalink":"/kse/optimization-techniques/finding-the-lipschitz-constant-of-a-function/","tags":["kse","math/calculus"],"created":"2025-03-09T21:12:13.030+02:00","updated":"2025-03-09T21:30:57.510+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Finding the Lipschitz Constant of a Function.md","permalink":"/kse/optimization-techniques/finding-the-lipschitz-constant-of-a-function/","tags":["kse","math/calculus"],"created":"2025-03-09T21:12:13.030+02:00","updated":"2025-03-10T09:21:49.294+02:00"}
 ---
 
 
@@ -42,7 +42,7 @@ $$
 
 This means that **$B$ is the maximum rate of change** of the function over all possible pairs of points.
 
-> [!summary] Recall:
+> [!tip] Recall:
 > The **[[02 - KSE/1_2-term/Discrete Mathematics concepts/Supremum\|supremum]]** (or **least upper bound**) of a set is the **smallest number** that is greater than or equal to all elements in the set.
 
 ### Example 1
