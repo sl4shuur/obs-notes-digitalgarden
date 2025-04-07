@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Proximal GD Idea Explained.md","permalink":"/kse/optimization-techniques/proximal-gd-idea-explained/","tags":["kse","math/calculus"],"created":"2025-03-10T10:13:56.221+02:00","updated":"2025-03-10T10:58:24.942+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/Proximal GD Idea Explained.md","permalink":"/kse/optimization-techniques/proximal-gd-idea-explained/","tags":["kse","math/calculus"],"created":"2025-03-10T10:13:56.221+02:00","updated":"2025-03-11T21:42:11.163+02:00"}
 ---
 
 

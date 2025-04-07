@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/How to Calculate the Subgradient.md","permalink":"/kse/optimization-techniques/how-to-calculate-the-subgradient/","tags":["kse","math/calculus"],"created":"2025-03-10T12:13:41.719+02:00","updated":"2025-03-10T14:37:43.827+02:00"}
+{"dg-publish":true,"dg-path":"KSE/Optimization Techniques/How to Calculate the Subgradient.md","permalink":"/kse/optimization-techniques/how-to-calculate-the-subgradient/","tags":["kse","math/calculus"],"created":"2025-03-10T12:13:41.719+02:00","updated":"2025-03-11T21:42:11.247+02:00"}
 ---
 
 
