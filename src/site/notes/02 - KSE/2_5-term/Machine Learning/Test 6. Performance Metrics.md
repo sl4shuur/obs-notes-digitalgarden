@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 6. Performance Metrics.md","permalink":"/kse/machine-learning/test-6-performance-metrics/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:59:40.904+03:00","updated":"2025-04-16T01:09:09.463+03:00"}
+{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 6. Performance Metrics.md","permalink":"/kse/machine-learning/test-6-performance-metrics/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:59:40.904+03:00","updated":"2025-04-16T01:12:30.065+03:00"}
 ---
 
 
@@ -54,12 +54,12 @@ Explain the confusion matrix for a binary classifier. Label its four cells and d
 
 > [!success]+ Answer 3!  
 > A binary confusion matrix:
-
-|                     | Predicted Positive | Predicted Negative |
-| ------------------- | ------------------ | ------------------ |
-| **Actual Positive** | TP                 | FN                 |
-| **Actual Negative** | FP                 | TN                 |
-
+>
+> |                     | Predicted Positive | Predicted Negative |
+> | ------------------- | ------------------ | ------------------ |
+> | **Actual Positive** | TP                 | FN                 |
+> | **Actual Negative** | FP                 | TN                 |
+>
 > - **Accuracy** = (TP + TN) / total
 > - **Precision** = TP / (TP + FP)
 > - **Recall** = TP / (TP + FN)
