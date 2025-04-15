@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Machine Learning/ML Topics Breakdown.md","permalink":"/kse/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-15T16:00:37.583+03:00"}
+{"dg-publish":true,"dg-path":"KSE/Machine Learning/ML Topics Breakdown.md","permalink":"/kse/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-16T01:08:57.349+03:00"}
 ---
 
 
@@ -46,7 +46,7 @@ Topics are clickable and will take you to the corresponding section :)
    - Cross‑validation algorithm
    - Classification vs. regression
 
-2. **Unsupervised Learning**
+2. **[[02 - KSE/2_5-term/Machine Learning/Test 2. Unsupervised Learning\|Test 2. Unsupervised Learning]]**
 
    - Principal Component Analysis (PCA)
    - UMAP
@@ -55,7 +55,7 @@ Topics are clickable and will take you to the corresponding section :)
    - Hierarchical clustering
    - DBSCAN
 
-3. **Deep Learning**
+3. **[[02 - KSE/2_5-term/Machine Learning/Test 3. Deep Learning\|Deep Learning]]**
 
    - Artificial neuron
    - Forward pass
@@ -66,7 +66,7 @@ Topics are clickable and will take you to the corresponding section :)
    - Training loop
    - Convolutional neural networks
 
-4. **Regularisation**
+4. **[[02 - KSE/2_5-term/Machine Learning/Test 4. Regularisation\|Regularisation]]**
 
    - L1 & L2 regularisation
    - Lasso regression
@@ -75,7 +75,7 @@ Topics are clickable and will take you to the corresponding section :)
    - Dropout
    - Data augmentation
 
-5. **Ensemble Learning**
+5. **[[02 - KSE/2_5-term/Machine Learning/Test 4. Regularisation\|Ensemble Learning]]**
 
    - Bagging
    - Random forest
@@ -83,7 +83,7 @@ Topics are clickable and will take you to the corresponding section :)
    - XGBoost
    - Stacking & blending
 
-6. **Performance Metrics**
+6. **[[02 - KSE/2_5-term/Machine Learning/Test 6. Performance Metrics\|Performance Metrics]]**
 
    - Accuracy
    - Recall, precision & F1‑score
