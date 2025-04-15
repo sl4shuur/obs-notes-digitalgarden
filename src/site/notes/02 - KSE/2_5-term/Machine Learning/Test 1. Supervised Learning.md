@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/test-1-supervised-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:11:30.113+03:00","updated":"2025-04-15T15:56:27.945+03:00"}
+{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 1. Supervised Learning.md","permalink":"/kse/machine-learning/test-1-supervised-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:11:30.113+03:00","updated":"2025-04-15T15:56:27.945+03:00"}
 ---
 
 # Test 1. Supervised Learning

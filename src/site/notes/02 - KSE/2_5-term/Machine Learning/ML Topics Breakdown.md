@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-15T15:56:09.913+03:00"}
+{"dg-publish":true,"dg-path":"KSE/Machine Learning/ML Topics Breakdown.md","permalink":"/kse/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-15T16:00:37.583+03:00"}
 ---
 
 
@@ -91,7 +91,7 @@ Topics are clickable and will take you to the corresponding section :)
    - MSE & RMSE
    - ROC & AUC
 
-## Example from the Roman Mishchenko (professor)
+## Example question from the Roman Mishchenko (professor)
 
 Write a formula for the Logistic Regression hypothesis. Describe what ML task we can solve using this model. Draw a simple schematic representation of this model architecture and describe the possible range of outputs from this model.
 
