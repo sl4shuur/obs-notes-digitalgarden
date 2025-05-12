@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/test-2-unsupervised-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:58:03.312+03:00","updated":"2025-04-16T01:05:26.994+03:00"}
+{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 2. Unsupervised Learning.md","permalink":"/kse/machine-learning/test-2-unsupervised-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:58:03.312+03:00","updated":"2025-04-16T01:05:26.994+03:00"}
 ---
 
 

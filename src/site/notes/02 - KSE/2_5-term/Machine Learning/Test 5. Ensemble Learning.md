@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/test-5-ensemble-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:59:25.636+03:00","updated":"2025-04-16T01:09:04.503+03:00"}
+{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 5. Ensemble Learning.md","permalink":"/kse/machine-learning/test-5-ensemble-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:59:25.636+03:00","updated":"2025-04-16T01:09:04.503+03:00"}
 ---
 
 
