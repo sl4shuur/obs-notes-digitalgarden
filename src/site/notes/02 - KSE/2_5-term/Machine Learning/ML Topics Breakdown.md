@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Machine Learning/ML Topics Breakdown.md","permalink":"/kse/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-16T01:08:57.349+03:00"}
+{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-16T01:13:20.930+03:00"}
 ---
 
 
@@ -66,7 +66,7 @@ Topics are clickable and will take you to the corresponding section :)
    - Training loop
    - Convolutional neural networks
 
-4. **[[02 - KSE/2_5-term/Machine Learning/Test 4. Regularisation\|Regularisation]]**
+4. **[[02 - KSE/2_5-term/Machine Learning/Test 4. Regularization\|Regularisation]]**
 
    - L1 & L2 regularisation
    - Lasso regression
@@ -75,7 +75,7 @@ Topics are clickable and will take you to the corresponding section :)
    - Dropout
    - Data augmentation
 
-5. **[[02 - KSE/2_5-term/Machine Learning/Test 4. Regularisation\|Ensemble Learning]]**
+5. **[[02 - KSE/2_5-term/Machine Learning/Test 4. Regularization\|Ensemble Learning]]**
 
    - Bagging
    - Random forest

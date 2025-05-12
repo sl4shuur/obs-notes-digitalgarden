@@ -10,7 +10,7 @@
 
 The Hessian matrix is a mathematical tool used to analyze the **curvature** of a function. It helps us determine whether a function is <strong><span style="color: var(--color-red);">convex</span></strong>, <strong><span style="color: var(--color-cyan);">concave</span></strong>, or <strong><span style="color: var(--color-aqua);">neither</span></strong> by looking at its **second-order derivatives**. In optimization, the Hessian is particularly useful because it tells us if a function has a **unique minimum** and whether standard optimization methods (like gradient descent) will work efficiently.  
 
-![convex and concave functions.png|500](/img/user/assets/convex%20and%20concave%20functions.png)
+![convex and concave functions.png|500](/img/user/assets/img/convex%20and%20concave%20functions.png)
 
 ---
 
@@ -56,7 +56,7 @@ Here’s how to interpret it:
 - If $\frac{d^2 f}{dx^2} < 0$, the function is **concave** (curves downward like an upside-down bowl).  
 - If $\frac{d^2 f}{dx^2} = 0$, the function might be linear or have an **inflection point** (a change in curvature).  
 
-![Convex And Concave Functions And Inflection Points General.png|500](/img/user/assets/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20General.png)
+![Convex And Concave Functions And Inflection Points General.png|500](/img/user/assets/img/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20General.png)
 
 ### Example 1: quadratic function  
 
@@ -80,7 +80,7 @@ $$
 
 Since $2 > 0$, the function is **convex** — its graph forms a **parabolic bowl** that always curves upwards.
 
-![Convex And Concave Functions And Inflection Points Good Example.png|400](/img/user/assets/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20Good%20Example.png)
+![Convex And Concave Functions And Inflection Points Good Example.png|400](/img/user/assets/img/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20Good%20Example.png)
 
 ---
 
@@ -110,7 +110,7 @@ This function is **not convex everywhere** because the second derivative depends
 - For $x < 0$, we have $\frac{d^2 f}{dx^2} < 0$, so it is concave.  
 - At $x = 0$, $\frac{d^2 f}{dx^2} = 0$, meaning the function has an **inflection point** where it transitions from concave to convex.  
 
-![Convex And Concave Functions And Inflection Points Bad Example.png|400](/img/user/assets/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20Bad%20Example.png)
+![Convex And Concave Functions And Inflection Points Bad Example.png|400](/img/user/assets/img/Convex%20And%20Concave%20Functions%20And%20Inflection%20Points%20Bad%20Example.png)
 
 This shows that **convexity is not just about checking one point** — it must hold <strong><span style="color: var(--color-red);">everywhere</span></strong>.  
 
@@ -176,7 +176,7 @@ Check the conditions:
 
 Since both conditions hold, the function is **convex**.  
 
-![Paraboloid.png](/img/user/assets/Paraboloid.png)
+![Paraboloid.png](/img/user/assets/img/Paraboloid.png)
 
 <strong><span style="color: var(--color-aqua);">Geometric intuition:</span></strong>
 This function represents a **bowl-shaped surface** in 3D, confirming convexity.  
@@ -206,7 +206,7 @@ Check the conditions:
 - The first leading principal minor is **$2 \geq 0$** ✅  
 - The determinant is **$2 \cdot (-2) - 0^2 = -4$**, which is **negative** ❌  
 
-![Hyperbolic Paraboloid.png](/img/user/assets/Hyperbolic%20Paraboloid.png)
+![Hyperbolic Paraboloid.png](/img/user/assets/img/Hyperbolic%20Paraboloid.png)
 
 Since the determinant is negative, the Hessian is <strong><span style="color: var(--color-red);">not positive semidefinite</span></strong>, meaning the function is **not convex** — it has a <strong><span style="color: var(--color-aqua);">saddle point</span></strong>.  
 
