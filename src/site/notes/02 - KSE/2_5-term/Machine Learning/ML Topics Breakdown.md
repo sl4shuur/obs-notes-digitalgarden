@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Machine Learning/ML Topics Breakdown.md","permalink":"/kse/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-16T01:13:20.930+03:00"}
+{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/ml-topics-breakdown/","tags":["kse","ai","machine-learning"],"created":"2025-04-15T15:01:00.846+03:00","updated":"2025-04-16T01:13:20.930+03:00"}
 ---
 
 

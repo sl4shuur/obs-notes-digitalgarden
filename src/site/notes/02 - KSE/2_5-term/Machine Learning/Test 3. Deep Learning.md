@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 3. Deep Learning.md","permalink":"/kse/machine-learning/test-3-deep-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:58:19.517+03:00","updated":"2025-04-16T01:05:32.787+03:00"}
+{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/test-3-deep-learning/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:58:19.517+03:00","updated":"2025-04-16T01:05:32.787+03:00"}
 ---
 
 

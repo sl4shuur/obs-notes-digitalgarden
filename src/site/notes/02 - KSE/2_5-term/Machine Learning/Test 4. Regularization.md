@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Machine Learning/Test 4. Regularization.md","permalink":"/kse/machine-learning/test-4-regularization/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:58:53.350+03:00","updated":"2025-05-12T15:49:40.294+03:00"}
+{"dg-publish":true,"permalink":"/02-kse/2-5-term/machine-learning/test-4-regularization/","tags":["kse","ai","machine-learning"],"created":"2025-04-16T00:58:53.350+03:00","updated":"2025-05-12T15:49:40.294+03:00"}
 ---
 
 

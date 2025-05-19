@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"KSE/Discrete Mathematics Concepts/Supremum.md","permalink":"/kse/discrete-mathematics-concepts/supremum/","tags":["kse","math/discrete"],"created":"2025-03-09T21:20:16.195+02:00","updated":"2025-03-09T21:23:17.768+02:00"}
+{"dg-publish":true,"permalink":"/02-kse/1-2-term/discrete-mathematics-concepts/supremum/","tags":["kse","math/discrete"],"created":"2025-03-09T21:20:16.195+02:00","updated":"2025-03-09T21:23:17.768+02:00"}
 ---
 
 # Supremum
