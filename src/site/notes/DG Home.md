@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dg-home/","tags":["gardenEntry"],"created":"2025-01-30T23:01:35.429+02:00","updated":"2025-02-18T01:46:38.491+02:00"}
+{"dg-publish":true,"permalink":"/dg-home/","tags":["gardenEntry"],"created":"2025-01-30T23:01:35.429+02:00","updated":"2025-05-26T19:14:50.484+03:00"}
 ---
 
 
@@ -82,3 +82,24 @@ If you enjoy my notes and find them helpful, you can support my work by **buying
 If you'd like to support me, here’s the link: **[Buy Me a Coffee](https://send.monobank.ua/jar/6LgGEwBhdx)** ❤️
 
 Thank you so much in advance! Your support truly means the world to me. 🙏✨
+
+## KSE Haunt Event | Stage 4
+
+I don’t remember when it all went dark.
+
+Somewhere between the dreams and the echoes, I left something behind.
+
+Maybe **_Quieter_** times once _**Laughed**_,  
+or **Whispers** from the past trying to _wake_ me.
+
+Who knows if **w**e’ll _**a**_ctually find **A**nswers?
+
+Maybe **8** nights of silence **u**nraveled **z**er0 hope...
+
+Do you still **H**ear the _**D**istant_ **D**rumbeats?
+
+Maybe that’s how **d**reams persist.
+
+Pray. _**X**pect_ Nothing.**P**repare.
+
+_**8** is the final key._
