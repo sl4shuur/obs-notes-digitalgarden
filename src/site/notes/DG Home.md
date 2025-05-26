@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dg-home/","tags":["gardenEntry"],"created":"2025-01-30T23:01:35.429+02:00","updated":"2025-05-26T19:14:50.484+03:00"}
+{"dg-publish":true,"permalink":"/dg-home/","tags":["gardenEntry"],"created":"2025-01-30T23:01:35.429+02:00","updated":"2025-05-26T19:22:41.950+03:00"}
 ---
 
 
@@ -92,13 +92,13 @@ Somewhere between the dreams and the echoes, I left something behind.
 Maybe **_Quieter_** times once _**Laughed**_,  
 or **Whispers** from the past trying to _wake_ me.
 
-Who knows if **w**e’ll _**a**_ctually find **A**nswers?
+Who knows if we’ll _**a**_ctually find **A**nswers?
 
 Maybe **8** nights of silence **u**nraveled **z**er0 hope...
 
 Do you still **H**ear the _**D**istant_ **D**rumbeats?
 
-Maybe that’s how **d**reams persist.
+Maybe that’s how **d**reams _persist_.
 
 Pray. _**X**pect_ Nothing.**P**repare.
 
